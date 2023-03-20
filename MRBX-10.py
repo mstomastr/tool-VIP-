@@ -1023,7 +1023,7 @@ def passwrd7():
 					pwv.append(frs+'112233')
 					pwv.append(frs+'11223344')
 					pwv.append(frs+'11122334455')
-					pwv.append(frs+'1221')
+					pwv.append(frs+'100200')
 					pwv.append(frs+'1112233')
 			else:
 					pwv.append(nmf)
