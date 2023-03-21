@@ -483,13 +483,13 @@ def menu(id):
 	os.system('clear')
 	banner()
 	print('')
-	print('\x1b[1;97m-----------------------------------------------------------------------------------------------------')
+	print('\x1b[1;97m---------------------------------------------------------------------------------------------------')
 	print('\033[1;32m[ 1 ] = CRACK PUBLIC [20 MAX] ')
 	print('')
 	print('\033[1;32m[ 2 ] = CRACK FILE /sdcard/file.txt 💌')
 	print('')
 	print('\033[1;32m[ 0 ] = LOG OUT ')
-	print('\x1b[1;97m-----------------------------------------------------------------------------------------------------')
+	print('\x1b[1;97m---------------------------------------------------------------------------------------------------')
 	_____alvino__adijaya_____ = input('\n\x1b[1;32mHALBZHIRA ≛≫  ')
 	print('')
 	if _____alvino__adijaya_____ in ['1']:
@@ -711,7 +711,7 @@ def setting():
 	else:
 		method.append('mobile')
 	print('')
-	_jembot_ = input('\x1b[1;97mVIEW APLICATION [\x1b[1;92m t \x1b[1;97m] =')
+	_jembot_ = input('\x1b[1;97mVIEW APLICATION [\x1b[1;92m t/y \x1b[1;97m] =')
 	if _jembot_ in ['']:
 		back()
 	elif _jembot_ in ['1','01']:
@@ -719,7 +719,7 @@ def setting():
 	else:
 		taplikasi.append('no')
 	print('')
-	pwplus=input('\x1b[1;97mAUTO PASS [ \x1b[1;92m t \x1b[1;97m] = ')
+	pwplus=input('\x1b[1;97mAUTO PASS [ \x1b[1;92m t/y \x1b[1;97m] = ')
 	if pwplus in ['y','Y']:
 		pwpluss.append('ya')
 		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
@@ -755,7 +755,7 @@ def passwrd():
 \033[1;97m Save in \033[1;31m CP \033[1;97m WITH CRACKED 
 
 -----------------------------------------------------------------------------------------------------
- WITH 25 S W 30S ...........    M R B X
+ WITH 25 S W 30S \033[1;31m ........... \033[1;32m   M R B X
 -----------------------------------------------------------------------------------------------------
 
 
@@ -771,31 +771,12 @@ def passwrd():
 					pass
 				else:
 					pwv.append(nmf)
-					pwv.append(frs+'123')
+		                        pwv.append(frs+"123")				
 					pwv.append(frs+frs)
-					pwv.append(frs+'1234')
-					pwv.append(frs+'12345')
-					pwv.append(frs+'123456')
-					pwv.append(frs+'123456789')
-					pwv.append(frs+'1234567890')
-					pwv.append(frs+'12')
-					pwv.append(frs+'1122')
-					pwv.append(frs+'321')
-					pwv.append(frs+'54321')
-					pwv.append('123'+frs+'123')
-					pwv.append('1234'+frs+'1234')
-					pwv.append('12345'+frs+'12345')
-					pwv.append('123'+frs)
-					pwv.append('1234'+frs)
-					pwv.append('12345'+frs)
+					pwv.append(frs+"1212")
 					pwv.append(frs+" "+frs)
 					pwv.append("1122334455")
-					pwv.append(frs+"11")
-					pwv.append(frs+"12")
-					pwv.append(frs+"1984")					
-					pwv.append(frs+"1985")					
-					pwv.append(frs+"1986")					
-					pwv.append(frs+"1987")
+	                                pwv.append(frs+"1987")
 					pwv.append(frs+"1988")
 					pwv.append(frs+"1989")
 					pwv.append(frs+"1990")
@@ -807,7 +788,22 @@ def passwrd():
 					pwv.append(frs+"2005")
 					pwv.append(frs+"2000")
 					pwv.append(frs+"2003")
-
+					pwv.append(frs+"12")
+					pwv.append(frs+"112233")
+					pwv.append(frs+"1234")
+					pwv.append(frs+"12345")
+					pwv.append(frs+"123456")
+					pwv.append(frs+"098")
+					pwv.append(frs+"1122")
+					pwv.append(frs+"123456789")
+					pwv.append(frs+"1234567890")
+					pwv.append(frs+"1985")
+					pwv.append(frs+"321")
+					pwv.append(frs+"1")
+					pwv.append("123"+frs)
+					pwv.append("1234"+frs)
+					pwv.append("12345"+frs)
+					pwv.append("123456"+frs)
 
 			else:
 				if len(frs)<3:
@@ -824,7 +820,7 @@ def passwrd():
 					pwv.append(frs+'12')
 					pwv.append(frs+'1122')
 					pwv.append(frs+'321')
-					pwv.append(frs+'54321')
+					pwv.append(frs+'1212')
 					pwv.append('123'+frs+'123')
 					pwv.append('1234'+frs+'1234')
 					pwv.append('12345'+frs+'12345')
